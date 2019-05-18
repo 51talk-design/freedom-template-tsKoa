@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "target": "es2017",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "noEmitHelpers": false,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./build",
+    "lib": [
+      "es2015.promise",
+      "es6",
+      "es7"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "config"
+  ],
+  "compileOnSave": false
+}

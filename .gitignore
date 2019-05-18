@@ -1,0 +1,14 @@
+*.log
+node_modules
+build
+dist
+lib
+.idea/*
+logs/
+yarn.lock
+package-lock.json
+**/*/package-lock.json
+.DS_Store
+**/*/.DS_Store
+.idea
+**/*/.idea
