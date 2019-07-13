@@ -16,7 +16,7 @@
 切换镜像地址
 
 ```
-cnpm config set registry=http://registry.npm.51talk.com
+cnpm config set registry=https://registry.npm.taobao.org
 ```
 
 安装依赖
